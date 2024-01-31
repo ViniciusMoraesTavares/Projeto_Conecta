@@ -1,0 +1,242 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-section img {
+  max-width: 200px;
+  max-height: 150px;
+}
+
+.icone-whatsapp img {
+  max-width: 50px;
+  max-height: 30px;
+}
+
+.login-section a {
+  color: #265DA2;
+  margin-left: 10px;
+}
+
+.login-section,
+.cadastro-section {
+  display: flex;
+}
+
+.login-section a,
+.cadastro-section a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 14px 20px;
+  margin-left: 10px;
+  border: 2px solid #265DA2;
+  border-radius: 20px;
+}
+
+.nav-section {
+  background-color: #265DA2;
+  width: 100%;
+  text-align: center;
+  padding: 0px 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-container a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  margin: 0 10px;
+}
+
+.titulo-pagina {
+  text-align: center;
+  color: #ffffff;
+  background-color: #265DA2;
+}
+
+.destaques-text {
+  font-size: 30px;
+  color: #265DA2;
+  margin: 50px 0 0;
+  margin-left: 20px;
+}
+
+.veja-mais-text {
+  font-size: 30px;
+  color: #265DA2;
+  margin: 50px 0 0;
+  margin-left: 20px;
+}
+
+.search-container {
+  margin: 0 20px;
+}
+
+.search-box {
+  width: 800px;
+  padding: 10px;
+  border: 2px solid #265DA2;
+  border-radius: 20px;
+  font-size: 14px;
+  outline: none;
+  margin: 0 auto;
+}
+
+.carousel-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.carousel-info {
+  padding: 20px;
+}
+
+.carousel-content {
+  border: 2px solid #265DA2;
+  border-radius: 5px;
+  overflow: hidden; 
+}
+
+.carousel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.course-name {
+  margin: 10px 0;
+}
+
+.duration {
+  margin-bottom: 10px;
+}
+
+.veja-mais-btn {
+  padding: 10px 20px;
+  background-color: #265DA2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mais-infomacao-text {
+  font-size: 30px;
+  color: #265DA2;
+  margin: 50px 0 0;
+  margin-left: 20px;
+}
+
+.description {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+footer {
+  background-color: #265DA2;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-section {
+  text-align: left;
+}
+
+.logo-row {
+  display: flex;
+  align-items: center;
+}
+
+.logo-row img {
+  max-width: 200px;
+  max-height: 100px;
+  margin-right: 10px;
+}
+
+.logo-row-secretaria img {
+  max-width: 300px;
+  max-height: 200px;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.address {
+  position: relative;
+}
+
+.address img {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  max-height: 100px;
+}
+
+.address p {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.social-links {
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-facebook,
+.logo-instagram {
+  margin-top: 10px; 
+}
+
+.logo-facebook img,
+.logo-instagram img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.rede-sociais-text {
+  font-size: 20px;
+  margin-bottom: 5px; 
+}
+
+.social-links p {
+  margin: 5px 10px 5px 0; 
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+}
