@@ -9,14 +9,14 @@ $(function() {
   })
 })
 
-const cursos = document.querySelectorAll('.curso');
+const cursos = document.querySelectorAll('.curso')
 
 cursos.forEach(curso => {
   curso.addEventListener('mouseenter', () => {
-    curso.classList.add('hovered');
-  });
+    curso.classList.add('hovered')
+  })
 
   curso.addEventListener('mouseleave', () => {
-    curso.classList.remove('hovered');
-  });
-});
+    curso.classList.remove('hovered')
+  })
+})
