@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-section-header {
+    text-align: center;
+    width: 100%;
+}
+
+.logo-section-header img {
+    max-width: 300px;
+    max-height: 150px;
+    margin: 0 auto;
+}
+
+.faixa-azul {
+    background-color: #265DA2;
+    height: 50px;
+    width: 100%;
+}
+
+.nav-section {
+    background-color: #265DA2;
+    width: 100%;
+    text-align: center;
+    padding: 0px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-container a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    margin: 0 10px;
+}
+
+.imagem-login {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    /* Garante que a imagem não ultrapasse os limites da div */
+}
+
+.imagem-login img {
+    width: 100%;
+    max-height: 700px;
+    /* Ajuste a altura máxima conforme necessário */
+    height: auto;
+    /* Permite ajuste automático da altura mantendo a proporção */
+    display: block;
+    /* Remove espaços em branco abaixo da imagem */
+
+}
+
+.sobreposicao-azul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(38, 93, 162, 0.5); /* Cor azul (#265DA2) com 50% de transparancia */
+    pointer-events: none; /* Garante que a sobreposição não bloqueie eventos do mouse */
+}
+
+.formulario-login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px; /* Aumenta o padding para aumentar a altura do oval */
+    border-radius: 30px; /* Aumenta o border-radius para tornar o oval mais alto */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+
+.formulario-login h2 {
+    margin-bottom: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: #041E3D;
+}
+
+.formulario-login label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.formulario-login input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px; 
+    display: block;
+    margin: auto; /* Centraliza os campos horizontalmente */
+}
+
+.formulario-login #cnpj, .formulario-login #senha, .formulario-login #email, .formulario-login #nome-instituição{
+    width: calc(100% - 30px); /* Ajusta a largura para evitar que os campos ultrapassem o oval */
+    margin: auto;
+}
+
+
+.formulario-login button {
+    width: auto; 
+    padding: 10px 20px; 
+    background-color: #265DA2;
+    color: white;
+    border: 2px solid #265DA2;
+    border-radius: 30px; 
+    cursor: pointer;
+}
+
+.formulario-login button:hover {
+    background-color: #1e4c82;
+    border-color: #1e4c82;
+}
+
+
+
+
+footer {
+    background-color: #265DA2;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-section {
+    text-align: left;
+}
+
+.logo-row {
+    display: flex;
+    align-items: center;
+}
+
+.logo-row img {
+    max-width: 200px;
+    max-height: 100px;
+    margin-right: 10px;
+}
+
+.logo-row-secretaria img {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.address {
+    position: relative;
+}
+
+.address img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    max-height: 100px;
+}
+
+.address p {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.social-links {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-facebook,
+.logo-instagram {
+    margin-top: 10px;
+}
+
+.logo-facebook img,
+.logo-instagram img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.rede-sociais-text {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.social-links p {
+    margin: 5px 10px 5px 0;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+}
