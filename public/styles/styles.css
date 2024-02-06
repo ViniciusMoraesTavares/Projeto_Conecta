@@ -42,6 +42,21 @@ header {
   border-radius: 20px;
 }
 
+.logo-section img:hover,
+.icone-whatsapp img:hover {
+  transform: scale(1.1);
+  /* Aumenta em 10% o tamanho da imagem */
+  transition: transform 0.3s ease;
+  /* Adiciona um efeito suave */
+}
+
+.login-section a:hover {
+  transform: scale(1.1);
+  /* Aumenta em 10% o tamanho do link */
+  transition: transform 0.3s ease;
+  /* Adiciona um efeito suave */
+}
+
 
 .nav-section {
   background-color: #265DA2;
@@ -62,10 +77,11 @@ header {
   margin: 0 10px;
 }
 
-.titulo-pagina {
-  text-align: center;
-  color: #ffffff;
-  background-color: #265DA2;
+.nav-container a:hover {
+  transform: scale(1.1);
+  /* Aumenta em 10% o tamanho do link */
+  transition: transform 0.3s ease;
+  /* Adiciona um efeito suave */
 }
 
 .destaques-text {
@@ -114,7 +130,7 @@ header {
 .carousel-content {
   border: 2px solid #265DA2;
   border-radius: 5px;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .carousel-item {
@@ -142,14 +158,14 @@ header {
 }
 
 .curso {
-  overflow: hidden; 
+  overflow: hidden;
   transition: transform 0.3s ease-out;
 }
 
 /* Efeito no hover */
 .curso:hover {
   transform: scale(1.05);
-  height: calc(100% + 10px); 
+  height: calc(100% + 10px);
 }
 
 /* Efeito quando a classe hovered é adicionada pelo JavaScript */
@@ -201,10 +217,19 @@ footer {
   margin-right: 10px;
 }
 
-.logo-row-secretaria img {
-  max-width: 300px;
+.logo-row-secretaria a {
+  display: inline-block;
+  /* Garante que o link tenha apenas o tamanho do conteúdo */
+  max-width: 250px;
   max-height: 200px;
 }
+
+.logo-row-secretaria img {
+  max-width: 100%;
+  /* Garante que a imagem não ultrapasse o tamanho do link */
+  height: auto;
+}
+
 
 .contact-info {
   text-align: center;
@@ -226,6 +251,16 @@ footer {
   margin: 5px 0;
 }
 
+.map-link {
+  color: white; 
+  text-decoration: none; 
+}
+
+.map-link:hover {
+  text-decoration: underline; /* Adiciona sublinhado quando o mouse passa sobre o link */
+}
+
+
 .social-links {
   font-size: 20px;
   text-align: center;
@@ -236,7 +271,7 @@ footer {
 
 .logo-facebook,
 .logo-instagram {
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 
 .logo-facebook img,
@@ -247,14 +282,24 @@ footer {
 
 .rede-sociais-text {
   font-size: 20px;
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
 }
 
 .social-links p {
-  margin: 5px 10px 5px 0; 
+  margin: 5px 10px 5px 0;
 }
 
 .social-links a {
   display: inline-block;
   margin-right: 10px;
+}
+
+.logo-row img:hover,
+.logo-row-secretaria img:hover,
+.logo-facebook img:hover,
+.logo-instagram img:hover {
+  transform: scale(1.1);
+  /* Aumenta em 10% o tamanho da imagem */
+  transition: transform 0.3s ease;
+  /* Adiciona um efeito suave */
 }
