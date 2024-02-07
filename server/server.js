@@ -44,6 +44,26 @@ app.get('/instituicoes.html', (req, res) => {
   res.sendFile(path.resolve(__dirname, '..', 'public', 'Pages', 'instituicoes.html'));
 });
 
+//Rota para a página perfil.html
+app.get('/perfil.html', (req, res) => {
+  res.sendFile(path.resolve(__dirname, '..', 'public', 'Pages', 'perfil.html'));
+});
+
+//Rota para a página configuracao.html
+app.get('/configuracao.html', (req, res) => {
+  res.sendFile(path.resolve(__dirname, '..', 'public', 'Pages', 'confifuracao.html'));
+});
+
+//Rota para a página cadastrar-cursos.html
+app.get('/cadastrar-cursos.html', (req, res) => {
+  res.sendFile(path.resolve(__dirname, '..', 'public', 'Pages', 'cadastrar-cursos.html'));
+});
+
+//Rota para a página editar-cursos.html
+app.get('/editar-cursos.html', (req, res) => {
+  res.sendFile(path.resolve(__dirname, '..', 'public', 'Pages', 'editar-cursos.html'));
+});
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Servidor rodando em http://localhost:${PORT}`);
