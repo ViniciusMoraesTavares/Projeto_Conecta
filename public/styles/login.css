@@ -141,84 +141,113 @@ footer {
     color: white;
     padding: 20px 0;
     text-align: center;
-}
-
-.footer-content {
+  }
+  
+  .footer-content {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-}
-
-.logo-section {
+  }
+  
+  .logo-section {
     text-align: left;
-}
-
-.logo-row {
+  }
+  
+  .logo-row {
     display: flex;
     align-items: center;
-}
-
-.logo-row img {
+  }
+  
+  .logo-row img {
     max-width: 200px;
     max-height: 100px;
     margin-right: 10px;
-}
-
-.logo-row-secretaria img {
-    max-width: 300px;
+  }
+  
+  .logo-row-secretaria a {
+    display: inline-block;
+    /* Garante que o link tenha apenas o tamanho do conteúdo */
+    max-width: 250px;
     max-height: 200px;
-}
-
-.contact-info {
+  }
+  
+  .logo-row-secretaria img {
+    max-width: 100%;
+    /* Garante que a imagem não ultrapasse o tamanho do link */
+    height: auto;
+  }
+  
+  
+  .contact-info {
     text-align: center;
-}
-
-.address {
+  }
+  
+  .address {
     position: relative;
-}
-
-.address img {
+  }
+  
+  .address img {
     display: block;
     margin: 0 auto;
     max-width: 200px;
     max-height: 100px;
-}
-
-.address p {
+  }
+  
+  .address p {
     font-size: 20px;
     margin: 5px 0;
-}
-
-.social-links {
+  }
+  
+  .map-link {
+    color: white; 
+    text-decoration: none; 
+  }
+  
+  .map-link:hover {
+    text-decoration: underline; /* Adiciona sublinhado quando o mouse passa sobre o link */
+  }
+  
+  
+  .social-links {
     font-size: 20px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.logo-facebook,
-.logo-instagram {
+  }
+  
+  .logo-facebook,
+  .logo-instagram {
     margin-top: 10px;
-}
-
-.logo-facebook img,
-.logo-instagram img {
+  }
+  
+  .logo-facebook img,
+  .logo-instagram img {
     max-width: 50px;
     max-height: 50px;
-}
-
-.rede-sociais-text {
+  }
+  
+  .rede-sociais-text {
     font-size: 20px;
     margin-bottom: 5px;
-}
-
-.social-links p {
+  }
+  
+  .social-links p {
     margin: 5px 10px 5px 0;
-}
-
-.social-links a {
+  }
+  
+  .social-links a {
     display: inline-block;
     margin-right: 10px;
-}
+  }
+  
+  .logo-row img:hover,
+  .logo-row-secretaria img:hover,
+  .logo-facebook img:hover,
+  .logo-instagram img:hover {
+    transform: scale(1.1);
+    /* Aumenta em 10% o tamanho da imagem */
+    transition: transform 0.3s ease;
+    /* Adiciona um efeito suave */
+  }
