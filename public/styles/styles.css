@@ -17,9 +17,14 @@ header {
   max-height: 150px;
 }
 
-.icone-whatsapp img {
+.icone-whatsapp img, .icone-perfil img {
   max-width: 50px;
   max-height: 30px;
+}
+
+.nav-text {
+  font-size: 10px;
+  color: #ffffff;
 }
 
 .login-section a {
