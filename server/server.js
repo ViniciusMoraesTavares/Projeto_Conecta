@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const helmet = require('helmet');
+
 const app = express();
 
 app.use(express.json());
@@ -17,51 +18,52 @@ app.use(
 );
 
 // Servir arquivos estáticos da pasta 'public'
-app.use(express.static(path.resolve(__dirname, '..', 'public')));
+const publicPath = path.resolve(__dirname, '..', 'public');
+app.use(express.static(publicPath));
 
 // Rota para a página home.html
 app.get('/', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '..', 'public', 'Pages', 'home.html'));
+  res.sendFile(path.resolve(publicPath, 'Pages', 'home.html'));
 });
 
 // Rota para a página login.html
 app.get('/login.html', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '..', 'public', 'Pages', 'login.html'));
+  res.sendFile(path.resolve(publicPath, 'Pages', 'login.html'));
 });
 
 // Rota para a página cadastro.html
 app.get('/cadastro.html', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '..', 'public', 'Pages', 'cadastro.html'));
+  res.sendFile(path.resolve(publicPath, 'Pages', 'cadastro.html'));
 });
 
 // Rota para a página cursos.html
 app.get('/cursos.html', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '..', 'public', 'Pages', 'cursos.html'));
+  res.sendFile(path.resolve(publicPath, 'Pages', 'cursos.html'));
 });
 
-//Rota para a página instituicoes.html
+// Rota para a página instituicoes.html
 app.get('/instituicoes.html', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '..', 'public', 'Pages', 'instituicoes.html'));
+  res.sendFile(path.resolve(publicPath, 'Pages', 'instituicoes.html'));
 });
 
-//Rota para a página perfil.html
+// Rota para a página perfil.html
 app.get('/perfil.html', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '..', 'public', 'Pages', 'perfil.html'));
+  res.sendFile(path.resolve(publicPath, 'Pages', 'perfil.html'));
 });
 
-//Rota para a página configuracao.html
+// Rota para a página configuracao.html
 app.get('/configuracao.html', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '..', 'public', 'Pages', 'confifuracao.html'));
+  res.sendFile(path.resolve(publicPath, 'Pages', 'configuracao.html'));
 });
 
-//Rota para a página cadastrar-cursos.html
+// Rota para a página cadastrar-cursos.html
 app.get('/cadastrar-cursos.html', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '..', 'public', 'Pages', 'cadastrar-cursos.html'));
+  res.sendFile(path.resolve(publicPath, 'Pages', 'cadastrar-cursos.html'));
 });
 
-//Rota para a página editar-cursos.html
+// Rota para a página editar-cursos.html
 app.get('/editar-cursos.html', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '..', 'public', 'Pages', 'editar-cursos.html'));
+  res.sendFile(path.resolve(publicPath, 'Pages', 'editar-cursos.html'));
 });
 
 const PORT = process.env.PORT || 3000;
