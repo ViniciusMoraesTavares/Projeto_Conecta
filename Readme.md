@@ -52,9 +52,17 @@ O Projeto Conecta é uma plataforma web que visa conectar instituições de ensi
    ```
 
 ## Contribuição
-# Lucas Cerucci
-# Vinícius Moraes Tavares
+
+## Lucas Cerucci
+## Vinícius Moraes Tavares
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request com melhorias ou correções.
 
+## Contexto Institucional
+
+O Projeto Conecta é uma iniciativa da Secretaria de Desenvolvimento Econômico, uma entidade que faz parte da estrutura administrativa da Prefeitura Municipal. A plataforma foi criada com o objetivo de promover o desenvolvimento econômico local, facilitando o acesso à qualificação profissional para os cidadãos e fortalecendo o mercado de trabalho da região. Através do Conecta, a Prefeitura busca promover a empregabilidade, estimular o empreendedorismo e impulsionar o crescimento econômico sustentável da comunidade.
+
+
 ## Licença
+| Secretaria de Desenvolvimento Econômico | Prefeitura de Rio Claro | Conecta 
+| Site: [text](https://sde.rioclaro.sp.gov.br/)
