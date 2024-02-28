@@ -65,4 +65,4 @@ O Projeto Conecta é uma iniciativa da Secretaria de Desenvolvimento Econômico,
 
 ## Licença
 | Secretaria de Desenvolvimento Econômico | Prefeitura de Rio Claro | Conecta 
-| Site: [text](https://sde.rioclaro.sp.gov.br/)
+| Site: [Desenvolvimento Econômico](https://sde.rioclaro.sp.gov.br/)
