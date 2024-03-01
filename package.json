@@ -14,7 +14,8 @@
     "pgpass": "^1.0.5",
     "postgres-array": "^3.0.2",
     "postgres-date": "^2.1.0",
-    "postgres-interval": "^4.0.2"
+    "postgres-interval": "^4.0.2",
+    "pug": "^3.0.2"
   },
   "name": "projeto_conecta",
   "version": "1.0.0",
